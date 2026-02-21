@@ -36,6 +36,31 @@ Project Status
 Development Started (Day 1)
 
 ---
+Day 2 Progress
+
+Today I focused on improving the user interface of the Wanderlust project.
+
+✅ Features Implemented
+
+* Added a responsive **Navbar** for easy navigation across pages
+* Designed and implemented a **Footer** section
+* Created **Listing Cards UI** to display travel destinations in a clean and structured format
+* Improved overall layout and styling for better user experience
+
+🛠️ Technologies Used
+
+* HTML
+* CSS
+* Bootstrap
+* EJS Templates
+* Node.js & Express (Project Structure)
+
+📌 Learning Outcome
+
+* Learned how to create reusable components using partials (Navbar & Footer)
+* Improved understanding of layout design and responsive UI
+* Practiced structuring frontend components in an MVC project
+
 
 ▶️ How to Run
 ```bash
