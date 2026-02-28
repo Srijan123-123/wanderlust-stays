@@ -3,7 +3,7 @@ WanderLust
 WanderLust is a full-stack web application for discovering, listing, and booking unique stays.  
 This project is being developed as a major learning project.
 
- Day 1 Progress
+## Day 1 Progress
 
 ✅ Work Completed
 - Initialized Node.js project
@@ -36,7 +36,7 @@ Project Status
 Development Started (Day 1)
 
 ---
-Day 2 Progress
+## Day 2 Progress
 
 Today I focused on improving the user interface of the Wanderlust project.
 
@@ -46,6 +46,14 @@ Today I focused on improving the user interface of the Wanderlust project.
 * Designed and implemented a **Footer** section
 * Created **Listing Cards UI** to display travel destinations in a clean and structured format
 * Improved overall layout and styling for better user experience
+
+## Day 3 Progress
+
+- Fixed image rendering issue caused by inconsistent image data structure
+- Implemented fallback logic to support multiple image formats
+- Added client-side form validations for improved UX
+- Implemented server-side validation to ensure secure and reliable data processing
+- Enhanced robustness of listing creation workflow
 
 🛠️ Technologies Used
 
