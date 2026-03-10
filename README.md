@@ -3,6 +3,8 @@ WanderLust
 WanderLust is a full-stack web application for discovering, listing, and booking unique stays.  
 This project is being developed as a major learning project.
 
+## 📅 Project Progress
+
 ## Day 1 Progress
 
 ✅ Work Completed
@@ -63,6 +65,32 @@ Today I focused on improving the user interface of the Wanderlust project.
 ## Day 4 Progress
 
 -Completed review feature with add, show, and delete functionality
+
+### Day 5
+
+Implemented session management and flash messages.
+
+Features added:
+
+- Integrated **express-session** for session handling
+- Implemented **connect-flash** for success and error messages
+- Added flash notifications for:
+  - Creating a new listing
+  - Updating a listing
+  - Deleting a listing
+- Configured middleware to pass flash messages to EJS templates
+
+### Day 6
+
+Implemented **User Authentication UI**.
+
+Features added:
+
+- Created **Signup page**
+- Created **Login page**
+- Integrated **Passport.js authentication**
+- Connected **passport-local-mongoose** with User model
+- User login system setup
 
 🛠️ Technologies Used
 
