@@ -5,21 +5,25 @@ const Listing = require("../models/listing.js");
 const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
 
 main()
-    .then(() => {
+  .then(() => {
     console.log("connected to DB");
-    })
-    .catch((err) => {
+  })
+  .catch((err) => {
     console.log(err);
-   });
+  });
 
 async function main() {
-    await mongoose.connect(MONGO_URL);
-};
+  await mongoose.connect(MONGO_URL);
+}
 
 const initDB = async () => {
-    await Listing.deleteMany({});
-    await Listing.insertMany(initData.data);
-    console.log("data was initialized");
+  await Listing.deleteMany({});
+  initData.data = initData.data.map((obj) => ({
+    ...obj,
+    owner: "69b164e5dd8ae6fae77d9f9f",
+  }));
+  await Listing.insertMany(initData.data);
+  console.log("data was initialized");
 };
 
 initDB();
