@@ -92,19 +92,63 @@ Features added:
 - Connected **passport-local-mongoose** with User model
 - User login system setup
 
-🛠️ Technologies Used
+## Day 7
 
-- HTML
-- CSS
-- Bootstrap
-- EJS Templates
-- Node.js & Express (Project Structure)
+Implemented Authorization and MVC Architecture
 
-📌 Learning Outcome
+-Authorization Added:
 
-- Learned how to create reusable components using partials (Navbar & Footer)
-- Improved understanding of layout design and responsive UI
-- Practiced structuring frontend components in an MVC project
+Authorization ensures that only permitted users can perform certain actions.
+
+Features
+Only logged-in users can create new listings.
+Only the owner of a listing can edit or delete it.
+Only logged-in users can add reviews.
+Only the author of a review can delete it.
+Unauthorized users are redirected with an appropriate flash message.
+Example:
+If User A creates a listing, User B will not be allowed to edit or delete that listing.
+
+-MVC Architecture Implemented:
+
+The project has been restructured using the MVC (Model–View–Controller) pattern for cleaner and more maintainable code.
+
+wanderlust/
+│
+├── models/
+│ ├── listing.js
+│ ├── review.js
+│ └── user.js
+│
+├── controllers/
+│ ├── listings.js
+│ ├── reviews.js
+│ └── users.js
+│
+├── routes/
+│ ├── listing.js
+│ ├── review.js
+│ └── user.js
+│
+├── views/
+│ ├── listings/
+│ ├── reviews/
+│ └── users/
+│
+├── middleware.js
+├── app.js
+└── package.json
+
+🛠️ Tech Stack
+Node.js
+Express.js
+MongoDB
+Mongoose
+Passport.js
+Express Session
+Connect Flash
+EJS
+Bootstrap
 
 ▶️ How to Run
 
