@@ -121,3 +121,9 @@ body{
     object-fit: cover;
     border-radius: 8px;
 }
+
+/* Map */
+#map {
+    height: 400px;
+    width: 80vh;
+}
