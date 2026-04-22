@@ -114,3 +114,10 @@ body{
     padding-left: 0;
     padding-right: 0;
 }
+
+.preview-img {
+    width: 18rem;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 8px;
+}
